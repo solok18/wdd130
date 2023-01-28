@@ -1,0 +1,37 @@
+nav {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+#top-quote{
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+}
+body {
+    background-color: pink;
+}
+#bottom-quote{
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin: 0 auto
+}
+#list{
+    list-style: decimal;
+    list-style-position: inside;
+    margin: 0 auto;
+    width: 23%;
+}
+* {
+border: 2px solid blue;
+}
+a:hover {
+    color: white;
+}
