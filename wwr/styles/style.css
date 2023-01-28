@@ -31,7 +31,7 @@ nav a:hover {
 }
 .book, .join {
     background-color: #023047;
-    color: #ffffff;
+    color: #8ecae6;
     text-decoration: none;
 }
 .book:hover, .join:hover {
@@ -68,10 +68,10 @@ h4 {
     color: #023047;
 }
 .msg h2 {
-    color: #ffffff;
+    color: #8ecae6;
 }
 .msg p {
-    color: #ffffff;
+    color: #8ecae6;
 }
 .logo {
     width: 80px;
