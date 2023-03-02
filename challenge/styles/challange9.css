@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Roboto+Slab&display=swap');
+
+main {
+    width: 300px;
+    height: 700px;
+    overflow: auto;
+}
+sup {
+    vertical-align: super;
+    font-size: 15px;
+    
+}
+#content {
+    font-family: 'Roboto Slab', Georgia, serif;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.top-header {
+    padding: 0;
+    margin-bottom: 0;
+    color: rgb(36, 68, 109);
+}
+.main-header {
+    padding: 0;
+    margin-top: 0;
+}
+.paragraph {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(109, 108, 108);
+    
+}
+#footer-content {
+    font-family: 'Amiri', Georgia, serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20px 20px 20px 20px;
+    background-color: rgb(36, 68, 109);
+    color: #ffffff;
+}
+.left-top {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 25px;
+    
+}
+.left-bottom {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+.center-top {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 25px;
+}
+.center-bottom {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+}
+.right-top {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 25px;;
+}
+.right-bottom {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px;
+}
