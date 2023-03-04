@@ -229,7 +229,6 @@ h2 {
     width: 400px;
     height: 300px;
     border: 10px solid #023047;
-    transition: transfrom .5s;
     box-shadow: 5px 5px 10px #8ecae6;
     display: grid;
 }
@@ -254,7 +253,6 @@ h2 {
     width: 400px;
     height: 300px;
     border: 10px solid #023047;
-    transition: transfrom .5s;
     box-shadow: 5px 5px 10px #8ecae6;
 }
 .gray-rivers-names {
@@ -279,7 +277,6 @@ h2 {
     width: 400px;
     height: 300px;
     border: 10px solid #023047;
-    transition: transfrom .5s;
     box-shadow: 5px 5px 10px #8ecae6;
 }
 .grand-rivers-names {
