@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .section5 {
-    background-image: url('/ksphotography/images/home_couple_kl.jpg');
+    background-image: url(/ksphotography/images/home_couple_kl.jpg);
 
     min-height: 100vh;
     background-attachment: fixed;
