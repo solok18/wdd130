@@ -3,22 +3,6 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
 
-/* html {
-    height: 100vh;
-    overflow: hidden;
-} */
-
-/* Body of the home page
-using a parallax effect for home page. */
-/* body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    overflow-x: hidden;
-    overflow-y: scroll;
-} */
 
 /* Start of navigation bar style code. */
 header {
@@ -86,7 +70,7 @@ nav a:hover {
 }
 
 .section5 {
-    background-image: url(/ksphotography/images/home_couple_kl.jpg);
+    background-image: url('/ksphotography/images/home_couple_kl.jpg');
 
     min-height: 100vh;
     background-attachment: fixed;
