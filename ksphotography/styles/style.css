@@ -1,0 +1,180 @@
+/* if you are using any Google fonts change the font names below to your fonts.
+Any spaces in your font name should be replaced with a +.
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
+
+/* html {
+    height: 100vh;
+    overflow: hidden;
+} */
+
+/* Body of the home page
+using a parallax effect for home page. */
+/* body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+} */
+
+/* Start of navigation bar style code. */
+header {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+    background-color: #000000;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+}
+nav a:hover {
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+.logo {
+    width: 90px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+/* End of navigation bar style code. */
+
+/* Start of parallex style code. */
+.section1, .section2, .section3, .section4, .section5, .section6, .section7 {
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 {
+    background-image: url('/ksphotography/images/home_hero_yosemitybubbles.jpg');
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.section3 {
+    background-image: url('/ksphotography/images/home_muirwoods.jpg');
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5 {
+    background-image: url('/ksphotography/images/home_couple_kl.jpg');
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section7 {
+    background-image: url('/ksphotography/images/home-Carlton_Family.jpg');
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2, .section4, .section6 {
+    background: #000000;
+
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-title, .place-title, .couple-title, .family-title{
+    /* position: absolute; */
+    
+    font-family:Forum, Halvetica, sans-serif;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+/* End of parallex style code. */
+
+/* Instruction for what to do with the text of the paragraph. */
+.home-text {
+    margin: 20px 200px;
+    /* position: absolute; */
+    font-family: Playfair Display, Halvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.home-text-title {
+    margin: 20px;
+    /* position: absolute; */
+    font-family: Playfair Display, Halvetica, sans-serif;
+    /* font-size: 20px; */
+    color: #ffffff;
+}
+
+.quote {
+    margin: 40px;
+    position: absolute;
+    font-family: Forum, Halvetica, sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+/* Start of footer style code */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 25px 500px;
+    /* margin-top: 200px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffffff;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+/* End of footer style code */
+
