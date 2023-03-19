@@ -48,7 +48,7 @@ nav a:hover {
     flex-direction: column;
 }
 .section1 {
-    background-image: url('/ksphotography/images/home_hero_yosemitybubbles.jpg');
+    background-image: url('/wdd130/ksphotography/images/home_hero_yosemitybubbles.jpg');
 
     min-height: 100vh;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .section3 {
-    background-image: url('/ksphotography/images/home_muirwoods.jpg');
+    background-image: url('/wdd130/ksphotography/images/home_muirwoods.jpg');
 
     min-height: 100vh;
     background-attachment: fixed;
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .section5 {
-    background-image: url('/ksphotography/images/home_couple_kl.jpg');
+    background-image: url('/wdd130/ksphotography/images/home_couple_kl.jpg');
 
     min-height: 100vh;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 .section7 {
-    background-image: url('/ksphotography/images/home-Carlton_Family.jpg');
+    background-image: url('/wdd130/ksphotography/images/home-Carlton_Family.jpg');
 
     min-height: 100vh;
     background-attachment: fixed;
