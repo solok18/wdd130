@@ -189,14 +189,13 @@ footer .social img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    
 }
 #head-shot{
     width: 400px;
     height: 600px;
     margin: 20px;
 }
+/* The overlay effect - lays on top of the container and over the image */
 .overlay {
     position: absolute;
     bottom: 140px;
@@ -212,6 +211,7 @@ footer .social img {
     text-align: center;
     font-family: Forum, Halvetica, sans-serif;
 }
+/* When you mouse over the container, fade in the overlay title */
 .about-me-image:hover .overlay {
     opacity: 1;
   }
