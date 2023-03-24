@@ -3,8 +3,13 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Playfair+Display&display=swap');
 
+/* Home page style code. Start. */
+/* Some code from home page will/can be use for
+child pages. Like Navigation and Footer code. */
 
-/* Start of navigation bar style code. */
+/* Navigation bar style code. Start. */
+/* This code will also be use in the child pages */
+
 header {
     background-color: #000000;
     display: grid;
@@ -35,9 +40,9 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-/* End of navigation bar style code. */
+/* Navigation bar style code. End. */
 
-/* Start of parallex style code. */
+/* Parallex style code. Start. */
 .section1, .section2, .section3, .section4, .section5, .section6, .section7 {
     position: relative;
     text-align: center;
@@ -106,10 +111,9 @@ nav a:hover {
     color: #ffffff;
     font-size: 100px;
 }
+/* Parallex style code. End. */
 
-/* End of parallex style code. */
-
-/* Instruction for what to do with the text of the paragraph. */
+/* Style of text for on Home page. Start. */
 .home-text {
     margin: 20px 200px;
     /* position: absolute; */
@@ -132,8 +136,10 @@ nav a:hover {
     font-size: 4em;
     color: #ffffff;
 }
+/* Style of text for on Home page. End. */
 
-/* Start of footer style code */
+/* Footer style code. Start. */
+/* Code will also be use in child pages. */
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -160,5 +166,98 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-/* End of footer style code */
+/* Footer style code. End. */
 
+/* Home page Code. End. */
+
+/* Child page. About me. Start */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    background-color: #000000;
+}
+.about-me-image {
+    grid-column: 1/2 ;
+    grid-row: 2/3 ;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+#head-shot{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+}
+.overlay {
+    position: absolute;
+    bottom: 140px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Forum, Halvetica, sans-serif;
+}
+.about-me-image:hover .overlay {
+    opacity: 1;
+  }
+.about-me-portrait {
+    grid-column: 1/2 ;
+    grid-row: 3/4 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#portrait{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+}
+.about-content {
+    grid-column: 2/3 ;
+    grid-row: 2/3 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-family: Playfair Display, Halvetica, sans-serif;
+    color: #ffffff;
+}
+.about-content2 {
+    grid-column: 2/3 ;
+    grid-row: 3/4 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-family: Playfair Display, Halvetica, sans-serif;
+    color: #ffffff;
+}
+.about-title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-family: Forum, Halvetica, sans-serif;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    
+}
