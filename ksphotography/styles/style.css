@@ -193,7 +193,9 @@ footer .social img {
 #head-shot{
     width: 400px;
     height: 600px;
-    margin: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
@@ -210,6 +212,7 @@ footer .social img {
     padding: 20px;
     text-align: center;
     font-family: Forum, Halvetica, sans-serif;
+    margin-left: 200px;
 }
 /* When you mouse over the container, fade in the overlay title */
 .about-me-image:hover .overlay {
@@ -227,7 +230,9 @@ footer .social img {
 #portrait{
     width: 400px;
     height: 600px;
-    margin: 20px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .about-content {
     grid-column: 2/3 ;
@@ -237,7 +242,7 @@ footer .social img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin-right: 300px;
     font-family: Playfair Display, Halvetica, sans-serif;
     color: #ffffff;
 }
@@ -249,7 +254,7 @@ footer .social img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin-right: 300px;
     font-family: Playfair Display, Halvetica, sans-serif;
     color: #ffffff;
 }
