@@ -51,8 +51,8 @@ nav a:hover {
     flex-direction: column;
 }
 .section1 {
-    background-image: url('/wdd130/ksphotography/images/home_hero_yosemitybubbles.jpg');
-
+    /* background-image: url('/wdd130/ksphotography/images/home_hero_yosemitybubbles.jpg'); */
+    background-image: url('/ksphotography/images/home_hero_yosemitybubbles.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -63,8 +63,8 @@ nav a:hover {
 }
 
 .section3 {
-    background-image: url('/wdd130/ksphotography/images/home_muirwoods.jpg');
-
+    /* background-image: url('/wdd130/ksphotography/images/home_muirwoods.jpg'); */
+    background-image: url('/ksphotography/images/home_muirwoods.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -73,8 +73,8 @@ nav a:hover {
 }
 
 .section5 {
-    background-image: url('/wdd130/ksphotography/images/home_couple_kl.jpg');
-
+    /* background-image: url('/wdd130/ksphotography/images/home_couple_kl.jpg'); */
+    background-image: url('/ksphotography/images/home_couple_kl.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -83,8 +83,8 @@ nav a:hover {
 }
 
 .section7 {
-    background-image: url('/wdd130/ksphotography/images/home-Carlton_Family.jpg');
-
+    /* background-image: url('/wdd130/ksphotography/images/home-Carlton_Family.jpg'); */
+    background-image: url('/ksphotography/images/home-Carlton_Family.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -185,7 +185,8 @@ img {
 
 .about-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-columns: repeat(10, 1fr); */
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 1fr 1fr;
     background-color: #000000;
 }
@@ -193,7 +194,7 @@ img {
 * {box-sizing: border-box;}
 
 .about-me-image {
-    grid-column: 1/5 ;
+    grid-column: 1/2 ;
     grid-row: 2/3 ;
 
     display:flex;
@@ -230,7 +231,7 @@ img {
     opacity: 1;
   }
 .about-me-portrait {
-    grid-column: 1/5 ;
+    grid-column: 1/2 ;
     grid-row: 3/4 ;
 
     display: flex;
@@ -246,7 +247,7 @@ img {
     margin-bottom: 20px;
 }
 .about-content {
-    grid-column: 6/10 ;
+    grid-column: 2/3 ;
     grid-row: 2/3 ;
 
     display: flex;
@@ -255,9 +256,10 @@ img {
     flex-direction: column;
     font-family: Playfair Display, Halvetica, sans-serif;
     color: #ffffff;
+    margin-right:50px;
 }
 .about-content2 {
-    grid-column: 6/10 ;
+    grid-column: 2/3 ;
     grid-row: 3/4 ;
 
     display: flex;
@@ -266,9 +268,10 @@ img {
     flex-direction: column;
     font-family: Playfair Display, Halvetica, sans-serif;
     color: #ffffff;
+    margin-right:50px;
 }
 .about-title {
-    grid-column: 1/11;
+    grid-column: 1/4;
     grid-row: 1/2;
     font-family: Forum, Halvetica, sans-serif;
     font-size: 30px;
@@ -348,17 +351,13 @@ img {
     margin: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    /*Home page. Start*/
+
+    
     #hero, .gallery-grid {
         display: block;
         height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
     }
 
     /*Child gallery page*/
@@ -388,8 +387,66 @@ img {
     #background {
         display: none;
     }
+    /* Navigation and Footer. Start*/
     footer {
         margin-top: 25px;
         font-size: .6em;
     }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    header {
+        padding: 20px;
+    }
+    header .logo{
+        font-size: 1.5em;
+    }
+    header .navigation {
+        display: none;
+    }
+    .home-title, .place-title, .couple-title, .family-title{
+        font-size: 2em;
+    }
+    .home-text {
+        font-size: 1em;
+        margin: 20px;
+    }
+    .quote{
+        font-size: 1.25em;
+        margin: 20px;
+    }
+    /* Navigation and Footer. End.*/
+    /*About Me. Start*/
+    /* .about-content, .about-content2 {
+        font-size: .5em;
+        padding: 50px;
+    }
+    .about-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+    }
+    .about-me-image{
+        grid-column: 1/2;
+        grid-area: 2/3;
+        min-height: 100%;
+    }
+    .about-content {
+        grid-area: 3/4;
+        grid-column:1/2
+    }
+    .about-me-portrait{
+        grid-area: 4/5;
+        grid-column: 1/2;
+    }
+    .about-content2{
+        grid-area: 5/6;
+        grid-column: 1/2;
+    }
+    .about-title{
+        grid-column: 1/2;
+    } */
 }
